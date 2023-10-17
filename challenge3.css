@@ -1,0 +1,166 @@
+-----------------------------------------/* EVERYTHING SECTION */
+
+* {
+     box-sizing: border-box;
+}
+body {
+     margin: 0;
+     font-family: "Roboto", sans-serif;
+}
+
+img {
+     max-width: 100%;
+}
+
+/* NAVBAR SECTION */
+
+nav {
+     background-color: #023261;
+}
+
+.flex {
+     display: flex;
+     justify-content: space-between;
+}
+
+.nav_list {
+     margin: 0;
+     padding: 0 3rem;
+     display: flex;
+     list-style: none;
+     gap: 0.5rem;
+}
+
+.nav_item {
+     padding: 2rem 0rem;
+}
+
+.nav_item + .nav_item {
+}
+
+.nav_logo img {
+     width: 3.3vmin;
+}
+
+.nav_link {
+     text-decoration: none;
+     color: white;
+     padding: 0.8rem 2rem;
+     border-radius: 25px;
+}
+
+.nav_link:hover {
+     background-color: #ffffff2e;
+     transition-duration: 0.7s;
+}
+.nav_link--button {
+     background-color: white;
+     color: black;
+     border-radius: 50px;
+}
+
+.nav_link--button:hover {
+     background-color: white;
+}
+
+/* HERO SECTION */
+.hero {
+     background-color: #023261;
+     color: #fff;
+}
+
+.container {
+     margin: 0 auto;
+     max-width: 1300px;
+}
+
+.hero__text {
+     width: 50%;
+}
+.hero__img {
+     width: 50%;
+}
+
+.hero__img img {
+     width: 100%;
+     border-radius: 10px;
+}
+
+h1 {
+     margin: 0;
+     font-size: 5.5vmin;
+}
+
+h3 {
+     font-size: 2rem;
+     color: #8b4eb6;
+     margin-bottom: 1rem;
+}
+
+h3 + p {
+     font-size: 1.3rem;
+     font-weight: 400;
+     opacity: 0.8;
+}
+
+p {
+     font-size: 1.3rem;
+     font-weight: 300;
+     opacity: 0.8;
+}
+
+button {
+     background-color: #38cfd9;
+     color: #072a2d;
+     border-radius: 40px;
+     padding: 1rem 3rem;
+     font-weight: bold;
+     font-size: 1.4rem;
+     border: none;
+}
+
+button:hover {
+     background-color: #38ced9b2;
+     font-size: 1.6;
+     transition: 300ms ease-in-out;
+}
+
+/* PARAGRAPH SECTION */
+
+.row {
+     display: flex;
+     gap: 1rem;
+     justify-content: space-between;
+     padding: 3rem;
+}
+
+.column h2 {
+     font-weight: 700;
+     font-size: 1.6rem;
+}
+
+.column {
+     text-align: center;
+}
+
+.paragraph__text {
+     width: 55%;
+}
+
+/* SIDEBAR SECTION */
+
+.three-cols {
+     background-color: #135392;
+     color: #fff;
+     border-radius: 10px;
+     padding: 1em 2em;
+     width: 40%;
+}
+
+.three-cols h2 {
+     color: rgb(255, 255, 255);
+}
+
+h2 + p {
+     padding-bottom: 2rem;
+}
